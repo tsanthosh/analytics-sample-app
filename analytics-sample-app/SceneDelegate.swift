@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  analytics-sample-app
 //
-//  Created by Santhosh Thiyagarajan on 29/9/2022.
+//  Created by xxxx on 29/9/2022.
 //
 
 import UIKit
