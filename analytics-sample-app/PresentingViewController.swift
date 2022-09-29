@@ -16,5 +16,19 @@ class PresentingViewController: UIViewController {
         Analytics.logEvent(AnalyticsEventScreenView,
                            parameters: [AnalyticsParameterScreenName: "presenting"])
     }
+
+    @IBAction func tappedShowModal(_ sender: UIButton) {
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+          AnalyticsParameterItemName: "show modal",
+          AnalyticsParameterContentType: "button"
+        ])
+    }
+
+    @IBAction func tappedTestEvent(_ sender: UIButton) {
+        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
+          AnalyticsParameterItemName: "test event",
+          AnalyticsParameterContentType: "button"
+        ])
+    }
 }
 

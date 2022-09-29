@@ -27,7 +27,16 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Show Modal"/>
                                 <connections>
+                                    <action selector="tappedShowModal:" destination="PmC-rP-fno" eventType="touchUpInside" id="qbH-e9-m0Q"/>
                                     <segue destination="883-gX-Sga" kind="presentation" id="ext-Qx-egT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1f-PM-hfB">
+                                <rect key="frame" x="161.5" y="554" width="91" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Test event"/>
+                                <connections>
+                                    <action selector="tappedTestEvent:" destination="PmC-rP-fno" eventType="touchUpInside" id="f3r-TC-bNr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,6 +44,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6sa-fd-dbQ" firstAttribute="centerX" secondItem="G1e-aE-IZc" secondAttribute="centerX" id="06z-Lb-Dhb"/>
+                            <constraint firstItem="x1f-PM-hfB" firstAttribute="centerX" secondItem="G1e-aE-IZc" secondAttribute="centerX" id="1U9-Hh-2g9"/>
+                            <constraint firstItem="x1f-PM-hfB" firstAttribute="top" secondItem="YHH-SR-G76" secondAttribute="bottom" constant="18" id="Pyw-52-SGx"/>
                             <constraint firstItem="6sa-fd-dbQ" firstAttribute="centerY" secondItem="G1e-aE-IZc" secondAttribute="centerY" id="d9g-Hm-rel"/>
                             <constraint firstItem="YHH-SR-G76" firstAttribute="top" secondItem="6sa-fd-dbQ" secondAttribute="bottom" constant="46.5" id="mLt-xd-1Ns"/>
                             <constraint firstItem="YHH-SR-G76" firstAttribute="centerX" secondItem="G1e-aE-IZc" secondAttribute="centerX" id="wGT-Lo-l5o"/>
